@@ -1,0 +1,66 @@
+<link href="../nav.css" rel="stylesheet" type="text/css"/>
+
+<nav style="padding: 20px;" class="navbar navbar-expand-lg navbar-light bg-dark">
+    <a id="home" class="navbar-brand" href="../index.html">BMNV</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">            
+            <li class="nav-item dropdown">
+                <a id="a" class="nav-link dropdown-toggle" href="#"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Programming World
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="../ProgrammingWorld/javaTutorial.jsp">Java</a>
+                    <a class="dropdown-item" href="../ProgrammingWorld/AndroidTutorial.jsp">Android</a>                                        
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a id="a" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Internet World
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="../InternateWorld/ASO.jsp">ASO(App Store Optimization</a>
+                    <a class="dropdown-item" href="../InternateWorld/SEO.jsp">SEO(Search Engine Optimization</a>                                        
+                </div>
+            </li>
+            
+            <li class="nav-item dropdown">
+                <a id="a" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Download
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="../project/projectList.jsp">Download Projects</a>
+                    <a class="dropdown-item" target="_blank" href="https://play.google.com/store/apps/developer?id=BMNV">Download Android application by BMNV</a>
+                </div>
+            </li>
+
+
+            <li  class="nav-item">
+                <a id="a"  class="nav-link" href="../OnlineTest/selectPrefrence.jsp">Online Quiz</a>
+            </li>
+           
+            
+            <li class="nav-item dropdown">
+                <a id="a" class="nav-link" target="_blank" href="mailto:bmnvcompany7860@gmail.com?subject = Feedback&body = Message"  role="button"  aria-haspopup="true">
+                    Mail Us
+                </a>               
+            </li>
+            
+        </ul>       
+    </div>
+</nav>
+
+<script>
+    $(document).ready(function () {
+        $('#home').mouseover(function () {
+            $('#home').css({'color': 'blue', 'font-size': '30px'});
+        });
+        $('#home').mouseout(function () {
+            $('#home').css({'color': 'aqua', 'font-size': '22px'});
+        });
+    });
+</script>
