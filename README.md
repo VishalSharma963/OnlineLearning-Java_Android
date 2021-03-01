@@ -2,4 +2,4 @@
 
 DEMO OF THIS WEB APPLICATION YOU CAN SEE HERE 
 
-https://vishalsharma963.github.io/-OnlineLearning-Java_Android_VISUAL_DEMO/
+https://vishalsharma963.github.io/Demo/
